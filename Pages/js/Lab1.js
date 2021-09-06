@@ -14,7 +14,7 @@ function typeOfLab() {
         "<div><h3>Тема :<span class='text2'> Структура html-документа. вибір предметного галузі. робота з посиланнями, таблицями, зображеннями, формами в html-документі</span></h3></div>"+
         "<div><h3>Мета :<span class='text2'> Придбати практичні навички роботи  з HTML-документом, таблицями,формами, зображеннями, посиланнями.\n" +
         "Створити шаблон звітного HTML-документом для відображення результатів роботи всіх лабораторних робіт\n</span></h3></div>"+
-        "<button  class='gitBtn' onclick=\"window.location.href='https://github.com/MishaGontar/Report_Labs'\"></button>"
+        "<button  class='gitBtn' onclick=\"window.open('https://github.com/MishaGontar/Lab_dev','_blank')\"></button>"
     change(text)
 }
 
