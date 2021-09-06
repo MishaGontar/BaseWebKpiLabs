@@ -1,25 +1,21 @@
 .app-wrapper {
+    word-wrap: break-word;
     align-items: center;
-    display: grid;
-
-    grid-template-areas:
-    "h h"
-    "n c";
-
-    grid-template-rows: 100px 1fr auto;
-    grid-template-columns: 12fr 100fr;
-
 }
 
-.spanHeader {
-    margin: 10px;
+.btnHeader {
+    font-size: 23px;
+    margin: 1px;
     background: rgba(255, 215, 113, 0.7);
-    border: 2px solid blue;
-    padding: .5em;
+    border: 1px solid blue;
+    padding: 0.1em;
+}
+
+.btnHeader:hover {
+    background: rgba(80, 134, 255, 0.44);
 }
 
 .header {
-    grid-area: h;
     font: 25px "Microsoft Yi Baiti";
     margin: 2px;
     color: green;
@@ -46,31 +42,28 @@ a:active {
 
 .nav {
     font-family: cursive;
-    grid-area: n;
     width: 500px;
-    margin-left: 100px;
-    text-align: left;
     border: 2px solid #237a30;
     padding: .5em;
+    float: left;
 }
 
 .content {
-    grid-area: c;
-
-    word-wrap: break-word;
-    width: 1000px;
+    width: 80%;
     height: 100%;
-    /*border: 5px solid black;*/
     font-size: 20px;
     padding-left: 20px;
 }
-.text2{
+
+.text2 {
     font-weight: normal;
 }
+
 .text {
     font-style: italic;
 }
-.gitBtn{
+
+.gitBtn {
     background-size: cover;
     width: 100px;
     height: 50px;
