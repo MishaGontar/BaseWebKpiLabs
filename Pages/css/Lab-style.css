@@ -2,13 +2,12 @@
     align-items: center;
     display: grid;
 
-
     grid-template-areas:
     "h h"
     "n c";
 
     grid-template-rows: 100px 1fr auto;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 12fr 100fr;
 
 }
 
@@ -22,7 +21,7 @@
 .header {
     grid-area: h;
     font: 25px "Microsoft Yi Baiti";
-    margin: 20px;
+    margin: 2px;
     color: green;
 }
 
@@ -56,14 +55,24 @@ a:active {
 }
 
 .content {
+    grid-area: c;
+
     word-wrap: break-word;
     width: 1000px;
-    padding: 10px;
-
-    grid-area: c;
+    height: 100%;
+    /*border: 5px solid black;*/
     font-size: 20px;
+    padding-left: 20px;
 }
-
+.text2{
+    font-weight: normal;
+}
 .text {
     font-style: italic;
+}
+.gitBtn{
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+    background-image: url("https://3dnews.ru/assets/external/illustrations/2020/03/17/1006161/i75_ArticleImage_23542.jpg");
 }

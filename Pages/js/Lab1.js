@@ -5,12 +5,16 @@ function change(props) {
 
 function about() {
     const text = "<h1>Опис предметного середовища</h1>" +
-        ""
+        "<div>Наш сайт буде пов'язаний з спорткомплексом (тренежерний зал , басейн і т.д.) </div>"
     change(text)
 }
 
 function typeOfLab() {
-    const text = "<h1>Hello Misha this is page</h1>"
+    const text = "<h1>Тема Мета Місце розташування лаби №1</h1>" +
+        "<div><h3>Тема :<span class='text2'> Структура html-документа. вибір предметного галузі. робота з посиланнями, таблицями, зображеннями, формами в html-документі</span></h3></div>"+
+        "<div><h3>Мета :<span class='text2'> Придбати практичні навички роботи  з HTML-документом, таблицями,формами, зображеннями, посиланнями.\n" +
+        "Створити шаблон звітного HTML-документом для відображення результатів роботи всіх лабораторних робіт\n</span></h3></div>"+
+        "<button  class='gitBtn' onclick=\"window.location.href='https://github.com/MishaGontar/Report_Labs'\"></button>"
     change(text)
 }
 
@@ -30,7 +34,7 @@ function s_img() {
 }
 
 function conclusion() {
-    const text = "<div>ergqewgeqgqerugoeniogengpewogepognmqegoomeqrgmoqergqermgqergop[qerg[qer[mgmeqr[gqegpeqogqergqewgeqgqerugoeniogengpewogepognmqegoomeqrgmoqergqermgqergopergqewgeqgqerugoeniogengpewogepognmqegoomeqrgmoqergqermgqergopergqewgeqgqerugoeniogengpewogepognmqegoomeqrgmoqergqermgqergopergqewgeqgqerugoeniogengpewogepognmqegoomeqrgmoqergqermgqergopergqewgeqgqerugoeniogengpewogepognmqegoomeqrgmoqergqermgqergopergqewgeqgqerugoeniogengpewogepognmqegoomeqrgmoqergqermgqergopergqewgeqgqerugoeniogengpewogepognmqegoomeqrgmoqergqermgqergopergqewgeqgqerugoeniogengpewogepognmqegoomeqrgmoqergqermgqergopergqewgeqgqerugoeniogengpewogepognmqegoomeqrgmoqergqermgqergopergqewgeqgqerugoeniogengpewogepognmqegoomeqrgmoqergqermgqergopemgqegerqgggggggggggggggggggggg</div>"
+    const text = "<h1>Висновок</h1>"
     change(text)
 }
 
