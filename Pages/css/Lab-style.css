@@ -1,0 +1,69 @@
+.app-wrapper {
+    align-items: center;
+    display: grid;
+
+
+    grid-template-areas:
+    "h h"
+    "n c";
+
+    grid-template-rows: 100px 1fr auto;
+    grid-template-columns: 1fr 4fr;
+
+}
+
+.spanHeader {
+    margin: 10px;
+    background: rgba(255, 215, 113, 0.7);
+    border: 2px solid blue;
+    padding: .5em;
+}
+
+.header {
+    grid-area: h;
+    font: 25px "Microsoft Yi Baiti";
+    margin: 20px;
+    color: green;
+}
+
+a {
+    text-decoration: none;
+    color: #0d338f;
+}
+
+a:active {
+    background: darkorange;
+}
+
+.b {
+    font-size: 22px;
+    margin: 10px;
+}
+
+.b1 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.nav {
+    font-family: cursive;
+    grid-area: n;
+    width: 500px;
+    margin-left: 100px;
+    text-align: left;
+    border: 2px solid #237a30;
+    padding: .5em;
+}
+
+.content {
+    word-wrap: break-word;
+    width: 1000px;
+    padding: 10px;
+
+    grid-area: c;
+    font-size: 20px;
+}
+
+.text {
+    font-style: italic;
+}
