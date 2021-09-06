@@ -42,20 +42,14 @@
                 <div>
                     <button class="b" onclick="typeOfLab()">Тема Мета Місце розташування лаби №1</button>
                 </div>
-                <dl>
-                    <dt>
-                        <div class="b"> Структура проекту:</div>
-                    </dt>
-                    <dd>
-                        <button class="b1" onclick="s_table()">Html-код ТАБЛИЦЬ</button>
-                    </dd>
-                    <dd>
-                        <button class="b1" onclick="s_form()">Html-код ФОРМИ</button>
-                    </dd>
-                    <dd>
-                        <button class="b1" onclick="s_img()">Html-код ЗОБРАЖЕННЯ</button>
-                    </dd>
-                </dl>
+                <div class="dropdown">
+                  <button onclick="myFunction()" class="dropbtn">Структура проекту:</button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a class="b1" onclick="s_table()">Html-код ТАБЛИЦЬ</a>
+                    <a class="b1" onclick="s_form()">Html-код ФОРМИ</a>
+                    <a class="b1" onclick="s_img()">Html-код ЗОБРАЖЕННЯ</a>
+                  </div>
+                </div>
                 <div>
                     <button class="b" onclick="conclusion()">Висновок</button>
                 </div>
@@ -70,5 +64,6 @@
     </div>
 </div>
 <script src="./../js/Lab1.js"></script>
+<script src="./../js/ScrBtn.js"></script>
 </body>
 </html>
