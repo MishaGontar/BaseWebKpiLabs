@@ -136,10 +136,10 @@ main {
 
 .text {
     width: 30%;
-    height: 45vh;
+    height: 30vh;
     background-color: #ffc;
     box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
-    font-size: 2.4vw;
+    font-size: 1.5vw;
     font-family: 'Alexander Regular';
     font-weight: bold;
     vertical-align: middle;
@@ -168,4 +168,19 @@ main {
     -webkit-transform: scale(1.25);
     -moz-transform: scale(1.25);
     -o-transform: scale(1.25);
+}
+
+.nav a:active,
+.dropdown-container a:active {
+    transition: background-color 0.5s ease;
+    background-color: rgb(155, 28, 28);
+    color: whitesmoke;
+    transition: color 0.2s ease;
+}
+
+.active1 {
+    transition: background-color 0.5s ease;
+    background-color: rgb(155, 28, 28);
+    color: whitesmoke;
+    transition: color 0.2s ease;
 }
