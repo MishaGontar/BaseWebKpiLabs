@@ -9,10 +9,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/button_script.js"></script>
     <script src="../js/labs_text_script.js"></script>
-    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <script src="../js/Other_text_script.js"></script>
 </head>
 
 <body>
@@ -22,10 +19,9 @@
                 <h3>Меню</h3>
             </div>
             <hr>
-            <a class="btn" href="">Проект</a>
-            <a class="btn" href="">Функціонал</a>
-            <button class="dropdown-btn">Звіти
-            <i class="fa fa-caret-down"></i>
+            <a href="">Проект</a>
+            <a href="">Функціонал</a>
+            <button class="dropdown-btn">Звіти <i class="fa fa-caret-down"></i>
         </button>
             <div class="dropdown-container">
                 <a class="btn" onclick="showLab1()">Лаб. Роб. №1</a>
@@ -38,10 +34,10 @@
                 <a class="btn" onclick="alert('Will be soon')">Лаб. Роб. №8</a>
                 <a class="btn" onclick="alert('Will be soon')">Лаб. Роб. №9</a>
             </div>
-            <a class="btn" href="">Команда</a>
+            <a onclick="team()">Команда</a>
         </div>
         <div class="social">
-            <img src="../img/telegram.png" alt=".." onclick="alert('Will be soon')">
+            <img src="../img/telegram.png" alt=".." onclick="window.open('https://t.me/teamn9')">
             <img src="../img/github.png" alt=".." onclick="window.open('https://github.com/MishaGontar/Lab_dev','_blank')">
             <img src="../img/google.png" alt=".." onclick="alert('Will be soon')">
         </div>
@@ -52,22 +48,7 @@
             </div>
         </header>
         <div class="context" id='context'>
-            <div class="about">
-                <div><img src="../img/Misha.jpg" alt="..."></div>
-                <div class="text">Даров , мене звати Гонтар Михайло. Я люблю їсти та бекенд розробку. Тут повинен бути іще текст тому ось і він.</div>
-            </div>
-            <div class="about">
-                <div class="text">Гуров Богдан Русланович, студент ІА-01 ФІОТ каф. ІСТ, юний розробник front-end та back-end</div>
-                <div><img src="../img/Bodya.jpg" alt="..."></div>
-            </div>
-            <div class="about">
-                <div><img src="../img/Denys.jpg" alt="..."></div>
-                <div class="text">Ониськів Денис Євгенович, навчаюся в КПІ на 2 курсі, цікавлюсь футболом і програмуванням:)</div>
-            </div>
-            <div class="about">
-                <div class="text">Кравчук Владислав Олегович Студент 2-го курсу. Фан C# та Java. Баскетбол та Комп'ютерні ігри What is LOVE!!!</div>
-                <div><img src="../img/Vlad.jpg" alt="..."></div>
-            </div>
+
         </div>
     </main>
 
