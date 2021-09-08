@@ -108,3 +108,6 @@ hr {
 main {
     flex: 1 1;
 }
+.context{
+    margin-left: 1%;
+}
