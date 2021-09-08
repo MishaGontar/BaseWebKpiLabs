@@ -1,8 +1,3 @@
-function change(props) {
-    let a = document.getElementById('context')
-    a.innerHTML = props
-}
-
 function team() {
     const text = "<div class=\"about\">\n" +
         "                <div><img src=\"../img/Misha.jpg\" alt=\"...\" onclick='console.log(`Уф посхалка `)'></div>\n" +

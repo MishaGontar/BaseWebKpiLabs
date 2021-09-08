@@ -14,3 +14,8 @@ window.onload = function() {
         });
     }
 }
+
+function change(props) {
+    let a = document.getElementById('context')
+    a.innerHTML = props
+}

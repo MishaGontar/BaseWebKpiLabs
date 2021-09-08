@@ -1,7 +1,3 @@
-function change(props) {
-    let a = document.getElementById('context')
-    a.innerHTML = props
-}
 
 function showLab1(){
     const text = "<h1>Опис предметного середовища</h1>" +
