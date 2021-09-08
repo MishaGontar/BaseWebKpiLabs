@@ -21,11 +21,12 @@ body {
 }
 
 .nav {
+    position: fixed;
     flex-basis: 200px;
     display: flex;
     flex-direction: column;
     color: rgb(83, 81, 81);
-    height: 100%;
+    height: 100vh;
     width: 200px;
     z-index: 1;
     top: 0;
@@ -106,8 +107,65 @@ hr {
 }
 
 main {
+    padding-left: 200px;
     flex: 1 1;
+    display: flex;
+    flex-direction: column;
 }
-.context{
-    margin-left: 1%;
+
+.context {
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about>div>img {
+    width: 25vw;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+
+.text {
+    width: 30%;
+    height: 45vh;
+    background-color: #ffc;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+    font-size: 2.4vw;
+    font-family: 'Alexander Regular';
+    font-weight: bold;
+    vertical-align: middle;
+    border: 1px solid brown;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'Alexander Regular';
+    src: url('Alexander.eot');
+    src: url('Alexander.eot?#iefix') format('embedded-opentype'), url('Alexander.woff') format('woff'), url('Alexander.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text:hover,
+.text:focus,
+.about>div>img:focus,
+.about>div>img:hover {
+    -moz-box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+    -webkit-box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+    position: relative;
+    z-index: 5;
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
 }
