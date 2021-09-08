@@ -177,10 +177,3 @@ main {
     color: whitesmoke;
     transition: color 0.2s ease;
 }
-
-.active1 {
-    transition: background-color 0.5s ease;
-    background-color: rgb(155, 28, 28);
-    color: whitesmoke;
-    transition: color 0.2s ease;
-}
