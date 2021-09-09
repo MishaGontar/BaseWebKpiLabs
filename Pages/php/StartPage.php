@@ -7,14 +7,14 @@
 </head>
 <body>
 <header class="header">
-    <span><img alt="..." class="homeImg" src="../img/pngwing.com.png" onclick="window.location.href='./../html/StartPage.html'"></span>
-    <span class="spanHeader"><a href="FAQ.html">Про проект</a></span>
+    <span><img alt="..." class="homeImg" src="../img/pngwing.com.png" onclick="window.location.href='./../php/StartPage.php'"></span>
+    <span class="spanHeader"><a href="FAQ.php">Про проект</a></span>
 </header>
 
 <div>
     <hr>
     <form>
-        <button formaction="index.html" style="color: coral">Повернутися до Звіту</button>
+        <button formaction="index.php" style="color: coral">Повернутися до Звіту</button>
     </form>
     <div><h1 class="hText">Спорткомплекс ....</h1></div>
     <div>

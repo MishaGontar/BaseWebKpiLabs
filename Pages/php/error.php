@@ -7,7 +7,7 @@
 <body>
 <div align="center">
     <h1 style="color: red">404 Not Found</h1>
-    <form action="./../html/StartPage.html" method="get">
+    <form action="./../php/StartPage.php" method="get">
         <input type="submit" value="Повернутися на головну">
     </form>
 </div>

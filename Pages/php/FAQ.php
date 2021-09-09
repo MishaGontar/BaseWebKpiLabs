@@ -8,8 +8,8 @@
 <body>
 <header class="header">
     <span><img alt="..." class="homeImg" src="../img/pngwing.com.png"
-               onclick="window.location.href='./../html/StartPage.html'"></span>
-    <span class="spanHeader"><a href="FAQ.html">Про проект</a></span>
+               onclick="window.location.href='./../php/StartPage.php'"></span>
+    <span class="spanHeader"><a href="FAQ.php">Про проект</a></span>
 </header>
 <hr>
 <div align="center">

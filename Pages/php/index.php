@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="../js/button_script.js"></script>
+    <script src="../js/text_lab_info.js"></script>
+    <script src="../js/labs_text_script.js"></script>
+    <script src="../js/Other_text_script.js"></script>
+    <script src="../js/modal_menu.js"></script>
+    <script src="../js/upload_chekker.js"></script>
+</head>
+
+<body>
+<div id="mySidebar" class="sidebar">
+    <div class="nav">
+        <div>
+            <div>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <h3>Меню</h3>
+            </div>
+            <hr>
+            <a onclick="project()">Проект</a>
+            <a onclick="functions()">Функціонал</a>
+            <button class="dropdown-btn">Звіти <i style="float: right">&#9660;</i>
+            </button>
+            <div class="dropdown-container">
+                <a onclick="showLab1()">Лаб. Роб. №1</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №2</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №3</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №4</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №5</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №6</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №7</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №8</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №9</a>
+            </div>
+            <a onclick="team()">Команда</a>
+        </div>
+        <div class="social">
+            <img src="../img/telegram.png" alt=".." onclick="window.open('https://t.me/teamn9')">
+            <img src="../img/github.png" alt=".."
+                 onclick="window.open('https://github.com/MishaGontar/Lab_dev','_blank')">
+            <img src="../img/google.png" alt=".." onclick="alert('Will be soon')">
+        </div>
+    </div>
+</div>
+<div id="main">
+    <button class="openbtn" onclick="openNav()">&#10148;</button>
+    <main>
+        <header>
+            <div class="main__header">
+                <span class="main__text"> Звіти з лабораторних робіт <br> з дисципліни "розроблення web-застосувань" <br> </span>
+                Бригади №9 Студенти групи ІА-01
+            </div>
+        </header>
+        <div class="context" id='context'>
+        </div>
+    </main>
+</div>
+</body>
+
+</html>
