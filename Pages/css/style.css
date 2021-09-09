@@ -365,10 +365,21 @@ main {
 .navlab1>a:hover,
 .navlab1>a:active {
     border-bottom: 2px solid rgba(131, 20, 20, 0.5);
+    cursor:pointer;
 }
 
 .lab {
     text-align: center;
-    text-transform: lowercase;
+    width: 100%;
     font-size: 20px;
+}
+
+.lab p{
+    display: inline-block;
+    width:80%;
+    text-align: center;
+}
+.lab img{
+    display: inline-block;
+    text-align: center;
 }

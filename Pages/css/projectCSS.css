@@ -27,3 +27,6 @@ a {
     width: 40%;
     word-wrap: break-word;
 }
+body{
+    display: inline-block;
+}
