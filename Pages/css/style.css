@@ -9,7 +9,67 @@ body {
     height: 100vh;
 }
 
+
+
+/* The sidebar links */
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    float:right;
+    font-size: 36px;
+    width: 12.5%;
+}
+
+.closebtn:focus{
+    opacity: 0;
+    cursor:auto;
+}
+/* The button used to open the sidebar */
+.openbtn {
+    padding: 14px 10px ;
+    border-radius:0px 4px 4px 0px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    z-index: 1;
+    background-color: whitesmoke;
+}
+
+.openbtn:hover {
+    background-color: #b5b5b5;
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    width:100%;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
 .main__header {
+
     padding-top: 15px;
     text-align: center;
     font-weight: bold;
@@ -20,26 +80,40 @@ body {
     text-transform: uppercase;
 }
 
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: whitesmoke; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */ /* Place content 60px from the top */
+    overflow-y: hidden; /* Disable horizontal scroll */ /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */ /* 0.5 second transition effect to slide*/
+    box-shadow: 3px 0 3px rgb(151, 151, 151);
+
+}
+
 .nav {
-    position: fixed;
+
     flex-basis: 200px;
     display: flex;
     flex-direction: column;
     color: rgb(83, 81, 81);
-    height: 100vh;
-    width: 200px;
     z-index: 1;
+    height:100vh;
     top: 0;
     left: 0;
-    background-color: whitesmoke;
     overflow-x: hidden;
     padding-top: 20px;
-    box-shadow: 3px 0 3px rgb(151, 151, 151);
     justify-content: space-between;
 }
 
 div>h3 {
     text-align: center;
+    margin-top: 0px;
+    margin-bottom:4.7%
 }
 
 hr {
@@ -107,7 +181,6 @@ hr {
 }
 
 main {
-    padding-left: 200px;
     flex: 1 1;
     display: flex;
     flex-direction: column;
