@@ -16,52 +16,67 @@
 </head>
 
 <body>
-<div id="mySidebar" class="sidebar">
-    <div class="nav">
-        <div>
+    <div id="mySidebar" class="sidebar">
+        <div class="nav">
             <div>
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <h3>Меню</h3>
+                <div>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <h3>Меню</h3>
 
-            </div>
-            <hr>
-            <a onclick="project()">Проект</a>
-            <a onclick="functions()">Функціонал</a>
-            <button class="dropdown-btn">Звіти <i style="float: right">&#9660;</i>
+                </div>
+                <hr>
+                <a onclick="project()">Проект</a>
+                <a onclick="functions()">Функціонал</a>
+                <button class="dropdown-btn">Звіти <i style="float: right">&#9660;</i>
         </button>
-            <div class="dropdown-container">
-                <a onclick="showLab1()">Лаб. Роб. №1</a>
-                <a onclick="alert('Will be soon')">Лаб. Роб. №2</a>
-                <a onclick="alert('Will be soon')">Лаб. Роб. №3</a>
-                <a onclick="alert('Will be soon')">Лаб. Роб. №4</a>
-                <a onclick="alert('Will be soon')">Лаб. Роб. №5</a>
-                <a onclick="alert('Will be soon')">Лаб. Роб. №6</a>
-                <a onclick="alert('Will be soon')">Лаб. Роб. №7</a>
-                <a onclick="alert('Will be soon')">Лаб. Роб. №8</a>
-                <a onclick="alert('Will be soon')">Лаб. Роб. №9</a>
+                <div class="dropdown-container">
+                    <a onclick="showLab1()">Лаб. Роб. №1</a>
+                    <a onclick="alert('Will be soon')">Лаб. Роб. №2</a>
+                    <a onclick="alert('Will be soon')">Лаб. Роб. №3</a>
+                    <a onclick="alert('Will be soon')">Лаб. Роб. №4</a>
+                    <a onclick="alert('Will be soon')">Лаб. Роб. №5</a>
+                    <a onclick="alert('Will be soon')">Лаб. Роб. №6</a>
+                    <a onclick="alert('Will be soon')">Лаб. Роб. №7</a>
+                    <a onclick="alert('Will be soon')">Лаб. Роб. №8</a>
+                    <a onclick="alert('Will be soon')">Лаб. Роб. №9</a>
+                </div>
+                <a onclick="team()">Команда</a>
             </div>
-            <a onclick="team()">Команда</a>
-        </div>
-        <div class="social">
-            <img src="../img/telegram.png" alt=".." onclick="window.open('https://t.me/teamn9')">
-            <img src="../img/github.png" alt=".." onclick="window.open('https://github.com/MishaGontar/Lab_dev','_blank')">
-            <img src="../img/google.png" alt=".." onclick="alert('Will be soon')">
+            <div class="social">
+                <img src="../img/telegram.png" alt=".." onclick="window.open('https://t.me/teamn9')">
+                <img src="../img/github.png" alt=".." onclick="window.open('https://github.com/MishaGontar/Lab_dev','_blank')">
+                <img src="../img/google.png" alt=".." onclick="alert('Will be soon')">
+            </div>
         </div>
     </div>
-</div>
-<div id="main">
-    <button class="openbtn" onclick="openNav()">&#10148;</button>
-    <main>
-        <header>
-            <div class="main__header">
-                <span class="main__text"> Звіти з лабораторних робіт <br> з дисципліни "розроблення web-застосувань" <br> </span> Бригади №9 Студенти групи ІА-01
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">&#10148;</button>
+        <main>
+            <header>
+                <div class="main__header">
+                    <span class="main__text"> Звіти з лабораторних робіт <br> з дисципліни "розроблення web-застосувань" <br> </span> Бригади №9 Студенти групи ІА-01
+                </div>
+            </header>
+            <div class="context" id='context'>
+                <h1>Лабораторна робота №1</h1>
+                <div class="navlab1">
+                    <a href="">Опис</a>
+                    <a href="">Тема_Мета_Місце</a>
+                    <a href="">Таблиця</a>
+                    <a href="">Форма</a>
+                    <a href="">Зображення</a>
+                    <a href="">Висновок</a>
+                </div>
+                <div class="lab">
+                    <p><b style="text-transform: uppercase;">Тема:</b> СТРУКТУРА HTML-ДОКУМЕНТА. ВИБІР ПРЕДМЕТНОГО ГАЛУЗІ. РОБОТА З ПОСИЛАННЯМИ, ТАБЛИЦЯМИ, ЗОБРАЖЕННЯМИ, ФОРМАМИ в HTML-ДОКУМЕНТІ
+                    </p>
+                    <p><b style="text-transform: uppercase;">Мета:</b> придбати практичні навички роботи з HTML-документом, таблицями,формами, зображеннями, посиланнями. Створити шаблон звітного HTML-документом для відображення результатів роботи всіх лабораторних
+                        робіт.
+                    </p>
+                </div>
             </div>
-        </header>
-        <div class="context" id='context'>
-
-        </div>
-    </main>
-</div>
+        </main>
+    </div>
 </body>
 
 </html>
