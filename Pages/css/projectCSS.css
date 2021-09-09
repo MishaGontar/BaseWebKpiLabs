@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+    color: darkorange;
+}
+
+.header {
+    margin-right: 2%;
+    text-align: left;
+}
+
+.spanHeader {
+    font-size: 25px;
+}
+
+.hText {
+    font-size: 50px
+}
+.h2Text{
+    font-size: 40px;
+}
+.homeImg {
+    width: 45px;
+
+}
+.text{
+    font-size: 25px;
+    width: 40%;
+    word-wrap: break-word;
+}
