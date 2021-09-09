@@ -208,3 +208,26 @@ main {
     justify-content: space-evenly;
     margin-bottom: 70px;
 }
+
+.functions {
+    background-color: rgb(223, 142, 142);
+    font-family: 'Alexander Regular';
+    width: 30%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .7);
+    font-size: 1.5vw;
+    padding: 20px;
+    margin: 20px;
+}
+
+.func {
+    display: flex;
+    flex-direction: column;
+}
+
+.func>div {
+    display: flex;
+}
+
+.functions>h2 {
+    text-align: center;
+}
