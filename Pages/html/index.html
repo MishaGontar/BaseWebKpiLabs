@@ -7,32 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="../js/button_script.js"></script>
     <script src="../js/labs_text_script.js"></script>
     <script src="../js/Other_text_script.js"></script>
-    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="../js/modal_menu.js"></script>
+
 </head>
 
 <body>
+<div id="mySidebar" class="sidebar">
     <div class="nav">
         <div>
             <div>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <h3>Меню</h3>
+
             </div>
             <hr>
             <a onclick="project()">Проект</a>
             <a onclick="functions()">Функціонал</a>
-            <button class="dropdown-btn">Звіти<i class="fa fa-caret-down"></i></button>
+            <button class="dropdown-btn">Звіти <i style="float: right">&#9660;</i>
+        </button>
             <div class="dropdown-container">
-                <a class="btn" onclick="showLab1()">Лаб. Роб. №1</a>
-                <a class="btn" onclick="alert('Will be soon')">Лаб. Роб. №2</a>
-                <a class="btn" onclick="alert('Will be soon')">Лаб. Роб. №3</a>
-                <a class="btn" onclick="alert('Will be soon')">Лаб. Роб. №4</a>
-                <a class="btn" onclick="alert('Will be soon')">Лаб. Роб. №5</a>
-                <a class="btn" onclick="alert('Will be soon')">Лаб. Роб. №6</a>
-                <a class="btn" onclick="alert('Will be soon')">Лаб. Роб. №7</a>
-                <a class="btn" onclick="alert('Will be soon')">Лаб. Роб. №8</a>
-                <a class="btn" onclick="alert('Will be soon')">Лаб. Роб. №9</a>
+                <a onclick="showLab1()">Лаб. Роб. №1</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №2</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №3</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №4</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №5</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №6</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №7</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №8</a>
+                <a onclick="alert('Will be soon')">Лаб. Роб. №9</a>
             </div>
             <a onclick="team()">Команда</a>
         </div>
@@ -42,15 +48,20 @@
             <img src="../img/google.png" alt=".." onclick="alert('Will be soon')">
         </div>
     </div>
+</div>
+<div id="main">
+    <button class="openbtn" onclick="openNav()">&#10148;</button>
     <main>
         <header>
-            <div class="main__header"><span class="main__text"> Звіти з лабораторних робіт <br> з дисципліни "розроблення web-застосувань" <br> </span> Бригади №9 Студенти групи ІА-01
+            <div class="main__header">
+                <span class="main__text"> Звіти з лабораторних робіт <br> з дисципліни "розроблення web-застосувань" <br> </span> Бригади №9 Студенти групи ІА-01
             </div>
         </header>
         <div class="context" id='context'>
+
         </div>
     </main>
-
+</div>
 </body>
 
 </html>
