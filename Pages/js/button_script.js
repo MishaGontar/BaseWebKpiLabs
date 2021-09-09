@@ -19,3 +19,7 @@ function change(props) {
     let a = document.getElementById('context')
     a.innerHTML = props
 }
+function changeText(props) {
+    let a = document.getElementById('context1')
+    a.innerHTML = props
+}

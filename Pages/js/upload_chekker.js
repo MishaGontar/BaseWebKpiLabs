@@ -1,4 +1,4 @@
-/*function ready() {
+function ready() {
     project();
 }
-document.addEventListener("DOMContentLoaded", ready);*/
+document.addEventListener("DOMContentLoaded", ready);
