@@ -10,8 +10,8 @@ body {
 }
 
 
-
 /* The sidebar links */
+
 .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -21,28 +21,35 @@ body {
     transition: 0.3s;
 }
 
+
 /* When you mouse over the navigation links, change their color */
+
 .sidebar a:hover {
     color: #f1f1f1;
 }
 
+
 /* Position and style the close button (top right corner) */
+
 .sidebar .closebtn {
     position: absolute;
     top: 0;
-    float:right;
+    float: right;
     font-size: 36px;
     width: 12.5%;
 }
 
-.closebtn:focus{
+.closebtn:focus {
     opacity: 0;
-    cursor:auto;
+    cursor: auto;
 }
+
+
 /* The button used to open the sidebar */
+
 .openbtn {
-    padding: 14px 10px ;
-    border-radius:0 4px 4px 0;
+    padding: 14px 10px;
+    border-radius: 0 4px 4px 0;
     font-size: 20px;
     cursor: pointer;
     border: none;
@@ -57,19 +64,26 @@ body {
 
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
 #main {
-    transition: margin-left .5s; /* If you want a transition effect */
-    width:100%;
+    transition: margin-left .5s;
+    /* If you want a transition effect */
+    width: 100%;
 }
 
+
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
 @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
 }
 
 .main__header {
-
     padding-top: 15px;
     text-align: center;
     font-weight: bold;
@@ -81,28 +95,37 @@ body {
 }
 
 .sidebar {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 2; /* Stay on top */
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 2;
+    /* Stay on top */
     top: 0;
     left: 0;
-    background-color: whitesmoke; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */ /* Place content 60px from the top */
-    overflow-y: hidden; /* Disable horizontal scroll */ /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */ /* 0.5 second transition effect to slide*/
+    background-color: whitesmoke;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    /* Place content 60px from the top */
+    overflow-y: hidden;
+    /* Disable horizontal scroll */
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidebar */
+    /* 0.5 second transition effect to slide*/
     box-shadow: 3px 0 3px rgb(151, 151, 151);
-
 }
 
 .nav {
-
     flex-basis: 200px;
     display: flex;
     flex-direction: column;
     color: rgb(83, 81, 81);
     z-index: 1;
-    height:100vh;
+    height: 100vh;
     top: 0;
     left: 0;
     overflow-x: hidden;
@@ -113,7 +136,7 @@ body {
 div>h3 {
     text-align: center;
     margin-top: 0;
-    margin-bottom:4.7%
+    margin-bottom: 4.7%
 }
 
 hr {
@@ -158,7 +181,6 @@ hr {
     transition: all 0.5s ease;
     background-color: rgb(155, 28, 28);
     color: whitesmoke;
-
 }
 
 .social {
@@ -281,7 +303,7 @@ main {
     color: whitesmoke;
     display: block;
     border: none;
-    border-radius:5px;
+    border-radius: 5px;
     background: rgb(155, 28, 28);
     width: 16%;
     text-align: center;
@@ -289,8 +311,6 @@ main {
     outline: none;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
 .business-logic {
@@ -322,4 +342,33 @@ main {
 
 .functions>h2 {
     text-align: center;
+}
+
+.context>h1 {
+    text-align: center;
+}
+
+.navlab1 {
+    align-self: center;
+    display: flex;
+}
+
+.navlab1>a {
+    display: block;
+    margin-left: 2vw;
+    padding: 0.5vw 1vw;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+.navlab1>a:hover,
+.navlab1>a:active {
+    border-bottom: 2px solid rgba(131, 20, 20, 0.5);
+}
+
+.lab {
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 20px;
 }
