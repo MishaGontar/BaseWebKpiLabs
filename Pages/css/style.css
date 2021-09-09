@@ -46,7 +46,7 @@ body {
     font-size: 20px;
     cursor: pointer;
     border: none;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     background-color: whitesmoke;
 }
@@ -272,6 +272,25 @@ main {
     font-size: 1.5vw;
     padding: 20px;
     margin: 20px;
+}
+
+.openerbutton {
+    padding: 8px 10px 8px 22px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    display: block;
+    border: none;
+    border-radius:5px;
+    background: rgb(155, 28, 28);
+    width: 16%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 .business-logic {
