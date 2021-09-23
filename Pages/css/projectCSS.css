@@ -1,6 +1,6 @@
 a {
     text-decoration: none;
-    color: darkorange;
+    color: #ff8c00;
 }
 
 .header {
@@ -27,6 +27,16 @@ a {
     width: 40%;
     word-wrap: break-word;
 }
-body{
-    display: inline-block;
+.back_btn{
+    color: #FF8C00;
+    padding: 14px 10px;
+    border-radius: 4px ;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: whitesmoke;
+}
+.back_btn:hover{
+    background-color:#FF8C00;
+    color: whitesmoke;
 }

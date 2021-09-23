@@ -49,7 +49,7 @@ for (let i of lessons) {
             <th> ${i.data} </th>
             <th> Тренер: ${i.trainer} </th>
             <th>
-                <form action="./../System/Error.html" method="get">
+                <form action="./../html/error.html" method="get">
                     <input type="submit" value="Записатися">
                 </form>
            </th>

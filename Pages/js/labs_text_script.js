@@ -2,7 +2,7 @@ function showLab1() {
     const text = `<h1>Лабораторна робота №1</h1>
                 <div class="navlab1">
                     <a onclick="description()">Опис</a>
-                    <a onclick="meta()">Тема Мета Місце</a>
+                    <a onclick="meta()">Тема Мета</a>
                     <a onclick="tableRes()">Таблиця</a>
                     <a onclick="image()">Зображення</a>
                     <a onclick="formCheck()">Форма</a>
