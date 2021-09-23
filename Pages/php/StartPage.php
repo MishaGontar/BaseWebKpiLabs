@@ -7,16 +7,15 @@
 </head>
 <body>
 <header class="header">
-    <span><img alt="..." class="homeImg" src="../img/pngwing.com.png" onclick="window.location.href='./../html/StartPage.html'"></span>
-    <span class="spanHeader"><a href="FAQ.html">Про проект</a></span>
-    <form style="float: right;">
-        <button class="back_btn" formaction="index.html" >Повернутися до Звіту</button>
-    </form>
+    <span><img alt="..." class="homeImg" src="../img/pngwing.com.png" onclick="window.location.href='./../php/StartPage.php'"></span>
+    <span class="spanHeader"><a href="FAQ.php">Про проект</a></span>
 </header>
 
-<div align="center">
+<div>
     <hr>
-
+    <form>
+        <button formaction="index.php" style="color: coral">Повернутися до Звіту</button>
+    </form>
     <div><h1 class="hText">Спорткомплекс ....</h1></div>
     <div>
         <h2>Всі заняття:</h2>
