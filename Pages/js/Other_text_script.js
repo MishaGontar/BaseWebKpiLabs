@@ -35,7 +35,7 @@ function project() {
         "<div class=\"proj\">Тренер може створювати групові чи персональні тренування, на які клієнти зможуть записуватись. Також для тренера є акції при покупці абонементу для себе.</div>" +
         "<div class=\"proj\">Адміністратор може робити все те, що і користувач, а також він може корегувати ціни на абонементи чи одноразові тренування, створювати різні акції для клієнтів. </div>" +
         "</div>" +
-        "<button class=\"openerbutton\" onclick=\"window.location.replace('StartPage.php')\">Переглянути сайт</button>"+
+        "<button class=\"openerbutton\" onclick=\"window.location.replace('StartPage.html')\">Переглянути сайт</button>"+
         "</div>"
     change(text)
 };
