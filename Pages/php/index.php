@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="../js/button_script.js"></script>
     <script src="../js/text_lab_info.js"></script>
+    <script src="../js/text_lan_info_2.js"></script>
     <script src="../js/labs_text_script.js"></script>
     <script src="../js/Other_text_script.js"></script>
     <script src="../js/modal_menu.js"></script>
@@ -31,7 +32,7 @@
             </button>
             <div class="dropdown-container">
                 <a onclick="showLab1()">Лаб. Роб. №1</a>
-                <a onclick="alert('Will be soon')">Лаб. Роб. №2</a>
+                <a onclick="showLab2()">Лаб. Роб. №2</a>
                 <a onclick="alert('Will be soon')">Лаб. Роб. №3</a>
                 <a onclick="alert('Will be soon')">Лаб. Роб. №4</a>
                 <a onclick="alert('Will be soon')">Лаб. Роб. №5</a>
