@@ -21,9 +21,9 @@ function lists() {
     <p style="width: 100%">Результат</p>
      <img src="../lab_img/marc.png">\`
     <p style="width: 100%">Нумерований список</p>
-    <img src="../lab_img/marc_code.png">
+    <img src="../lab_img/num_code.png">
         <p style="width: 100%">Результат</p>
-        <img src="../lab_img/table.png">\``
+        <img src="../lab_img/num.png">\``
     changeText(text)
 }
 
@@ -44,9 +44,7 @@ function indents() {
 function floatingElements() {
     const text = `<h1>Плаваючі елементи</h1>
     <p style="width: 100%">Код</p>
-    <img src="../lab_img/floatingElements_code.png">
-    <p style="width: 100%">Результат</p>
-     <img src="../lab_img/floatingElements.png">\``
+    <img src="../lab_img/floatingElements_code.png">`
     changeText(text)
 }
 
@@ -61,10 +59,10 @@ function selectorsClassTag() {
 
 function selectorsOther() {
     const text = `<h1>Інші селектори</h1>
-    <p style="width: 100%">Код</p>
-    <img src="../lab_img/selectorsOther_code.png">
-    <p style="width: 100%">Результат</p>
-     <img src="../lab_img/selectorsOther.png">\``
+    <p style="width: 100%">Дочірній селектори</p>
+    <img src="../lab_img/selectorsOther_code_1.png">
+    <p style="width: 100%">Селектор атрибута</p>
+    <img src="../lab_img/selectorsOther_code_2.png">`
     changeText(text)
 }
 

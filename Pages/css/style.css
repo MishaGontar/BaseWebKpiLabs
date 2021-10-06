@@ -386,3 +386,6 @@ main {
 .form-wrap{
     align-content: center;
 }
+a[onclick*="alert"]{
+    color: red;
+}
