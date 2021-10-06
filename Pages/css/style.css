@@ -383,3 +383,6 @@ main {
     display: inline-block;
     text-align: center;
 }
+.form-wrap{
+    align-content: center;
+}
