@@ -16,64 +16,62 @@ function meta_2() {
 
 function lists() {
     const text = `<h1>Списки</h1>
-    <p style="width: 100%">Код</p>
-    <img src="../lab_img/table_code.png">
+    <p style="width: 100%">Маркерований список</p>
+    <img src="../lab_img/marc_code.png">
     <p style="width: 100%">Результат</p>
-     <img src="../lab_img/table.png">\``
+     <img src="../lab_img/marc.png">\`
+    <p style="width: 100%">Нумерований список</p>
+    <img src="../lab_img/marc_code.png">
+        <p style="width: 100%">Результат</p>
+        <img src="../lab_img/table.png">\``
     changeText(text)
 }
 
 function identifiers() {
     const text = `<h1>Ідентифікатори</h1>
     <p style="width: 100%">Код</p>
-    <img src="../lab_img/img_code.png">
-    <p style="width: 100%">Результат</p>
-     <img src="../lab_img/img.png">`
+    <img src="../lab_img/identifiers_code.png">`
     changeText(text)
 }
 
 function indents() {
     const text = `<h1>Відступи</h1>
     <p style="width: 100%">Код</p>
-    <img src="../lab_img/form_code.png">
-    <p style="width: 100%">Результат</p>
-     <img src="../lab_img/form.png">\``
+    <img src="../lab_img/indents_code.png">`
     changeText(text)
 }
 
 function floatingElements() {
     const text = `<h1>Плаваючі елементи</h1>
     <p style="width: 100%">Код</p>
-    <img src="../lab_img/form_code.png">
+    <img src="../lab_img/floatingElements_code.png">
     <p style="width: 100%">Результат</p>
-     <img src="../lab_img/form.png">\``
+     <img src="../lab_img/floatingElements.png">\``
     changeText(text)
 }
 
 function selectorsClassTag() {
     const text = `<h1>Селектори тегу і класу</h1>
-    <p style="width: 100%">Код</p>
-    <img src="../lab_img/form_code.png">
-    <p style="width: 100%">Результат</p>
-     <img src="../lab_img/form.png">\``
+    <p style="width: 100%">Селектор класу</p>
+    <img src="../lab_img/selectorsClass.png">
+    <p style="width: 100%">Селектор тегу</p>
+     <img src="../lab_img/selectorsTag.png">\``
     changeText(text)
 }
 
 function selectorsOther() {
     const text = `<h1>Інші селектори</h1>
     <p style="width: 100%">Код</p>
-    <img src="../lab_img/form_code.png">
+    <img src="../lab_img/selectorsOther_code.png">
     <p style="width: 100%">Результат</p>
-     <img src="../lab_img/form.png">\``
+     <img src="../lab_img/selectorsOther.png">\``
     changeText(text)
 }
 
 function selectorsGrouping() {
     const text = `<h1>Групування селекторів</h1>
     <p style="width: 100%">Код</p>
-    <img src="../lab_img/form_code.png">
-    <p style="width: 100%">Результат</p>
-     <img src="../lab_img/form.png">\``
+    <img src="../lab_img/selectorsGrouping_code.png">`
     changeText(text)
 }
 
